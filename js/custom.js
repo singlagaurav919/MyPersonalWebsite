@@ -83,14 +83,15 @@ $(document).ready(function () {
     $('#projects').waitForImages(function () {
         var $container = $('.portfolio_container');
         $container.isotope({
-            filter: '*',
+            filter: '*:not(.notall)',
         });
 
         $('.portfolio_filter a').click(function () {
             $('.portfolio_filter .active').removeClass('active');
             $(this).addClass('active');
-
             var selector = $(this).attr('data-filter');
+            if(selector == "*")
+                selector = "*:not(.notall)";
             $container.isotope({
                 filter: selector,
                 animationOptions: {
