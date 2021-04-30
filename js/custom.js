@@ -33,6 +33,12 @@ $(document).ready(function () {
                 nav.find('a[href="#' + $(this).attr('id') + '"]').addClass('active');
             }
         });
+        // AOS
+        AOS.init({
+            duration: 1200,
+            once: true,
+            disable: 'mobile'
+        });
     });
 
     nav.find('a').on('click', function () {
@@ -73,11 +79,11 @@ $(document).ready(function () {
     });
 
     // AOS
-    AOS.init({
-        duration: 1200,
-        once: true,
-        disable: 'mobile'
-    });
+    // AOS.init({
+    //     duration: 1200,
+    //     once: true,
+    //     disable: 'mobile'
+    // });
 
     //  isotope
     $('#projects').waitForImages(function () {
