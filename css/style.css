@@ -545,7 +545,7 @@ a.active {
     -webkit-transition: all .3s ease-in-out .3s;
     transition: all .3s ease-in-out .3s;
     opacity: 0;
-    font-size: 10px;
+    font-size: 14px;
     letter-spacing: 2px;
 }
 
@@ -601,7 +601,6 @@ a.active {
     float: right;
     margin: 20px;
     font-size: 22px;
-    opacity: 0;
     cursor: pointer;
     -webkit-transition: all .3s;
     transition: all .3s;
@@ -610,10 +609,6 @@ a.active {
     position: fixed;
     z-index: 100000;
     right: 14px;
-}
-
-.animatedModal-on .close-popup-modal {
-    opacity: 1;
 }
 
 .modal-content h2 {
