@@ -746,8 +746,15 @@ fieldset {
     color: #425BB5;
 }
 
+/* Detailed Images
+==================================================*/
 
-/* Responsive media queries
+.img-border{
+    border: 1px solid gray;
+}
+.img-max-width-80{
+    max-width: 80%;
+}sponsive media queries
 ==================================================*/
 
 @media (max-width: 991px) {
