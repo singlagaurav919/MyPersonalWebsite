@@ -754,7 +754,9 @@ fieldset {
 }
 .img-max-width-80{
     max-width: 80%;
-}sponsive media queries
+}
+
+/* Responsive media queries
 ==================================================*/
 
 @media (max-width: 991px) {
