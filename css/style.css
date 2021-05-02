@@ -253,6 +253,9 @@ nav li a {
     font-size: 11px;
     font-weight: bold;
 }
+.navbar-fixed-top nav li a{
+    font-size: 16px;
+}
 
 .bg-nav {
     background: #fff;
@@ -325,7 +328,6 @@ a.active {
 
 #experience {
     padding: 100px 0;
-    background: #f3f3f3
 }
 
 .experience-row {
@@ -754,6 +756,23 @@ fieldset {
 }
 .img-max-width-80{
     max-width: 80%;
+}
+
+.section:nth-of-type(even){
+    background: #f3f3f3;
+}
+
+/* Detailed Images
+==================================================*/
+.techIcons img{
+    float: left;
+    box-sizing: border-box;
+    padding: 2%;
+    max-width: 18%;
+}
+.techIcons img:hover{
+    transform: scale(1.2) !important;
+    transition-duration: 0.5s !important;
 }
 
 /* Responsive media queries
